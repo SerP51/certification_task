@@ -37,6 +37,7 @@ provider_installation {
 }
 ```
 Так же скопировать файл в домашнюю папку пользователя jenkins, в моем случае в /var/lib/jenkins
+
 7.  Создать сервисный аккаунт и сгенерировать ключ, полученным файлом key.json заменить тот что в репозитории: 
 ```bash
 yc iam key create --service-account-name <имя_сервисного_аккаунта> --output key.json
